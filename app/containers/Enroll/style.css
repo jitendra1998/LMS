@@ -1,0 +1,190 @@
+/* Enroll Styles */
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+.lmsEnrollMain {
+  margin-top:70px;
+  display:flex;
+  flex-direction:column;
+  background:#FAFAFA;
+  padding:30px;
+}
+
+.lmsEnrollContent {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.lmsEnrollContainer {
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+}
+
+.lmsEnrollSummary {
+  width:45%;
+  display:flex;
+  flex-direction:column;
+  background:#FFFFFF;
+  padding:15px;
+  border-radius:3px;
+  box-shadow:0 0 7px 0 rgba(0, 0, 0, 0.1);
+}
+
+.lmsEnrollSummaryHeader {
+  font-family:'Oswald';
+  font-weight:bold;
+  font-size:2em;
+  margin-bottom:20px;
+}
+
+.lmsEnrollCourse {
+  display:flex;
+  flex-direction:row;
+  border-top:1px solid #DDDDDD;
+  border-bottom:1px solid #DDDDDD;
+  padding-top:5px;
+}
+
+.lmsEnrollCourseImageContainer {
+  width:120px;
+  max-height:120px;
+  padding-bottom:15px;
+}
+
+.lmsEnrollCourseImage {
+  width:100%;
+}
+
+.lmsEnrollCourseName {
+  display:flex;
+  flex-direction:row;
+  font-family:'Lato';
+  color:#888888;
+  font-weight:bold;
+  margin-bottom:3px;
+  padding:10px;
+  flex-grow:1;
+}
+
+.lmsEnrollCoursePrice {
+  display:flex;
+  flex-direction:row;
+  font-family:'Lato';
+  color:#888888;
+  font-weight:bold;
+  margin-bottom:3px;
+  padding:10px;
+}
+
+.lmsEnrollSummaryTotalMain {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  padding-top:15px;
+}
+
+.lmsEnrollTotalText {
+  display:flex;
+  flex-direction:row;
+  font-family:'Lato';
+  color:#888888;
+  font-weight:bold;
+  margin-bottom:3px;
+  padding:10px;
+}
+
+.lmsEnrollTotalPrice {
+  display:flex;
+  flex-direction:row;
+  font-family:'Lato';
+  color:#444444;
+  margin-bottom:3px;
+  padding:10px;
+  font-weight:bold;
+  font-size:2em;
+}
+
+.lmsEnrollPayment {
+  width:45%;
+  display:flex;
+  flex-direction:column;
+  background:#FFFFFF;
+  padding:15px;
+  border-radius:3px;
+  box-shadow:0 0 7px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Checkout {
+  margin: 0 auto;
+  max-width: 800px;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.lmsEnrollPayButton {
+  white-space: nowrap;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  height: 40px;
+  width:100%;
+  line-height: 40px;
+  padding: 0 14px;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  background: #6fc13e;
+  text-decoration: none;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  margin-top: 10px;
+}
+
+.lmsEnrollPayButton:hover {
+  color: #fff;
+  cursor: pointer;
+  background: #4cc498;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, .10), 0 3px 6px rgba(0, 0, 0, .08);
+}
+
+.StripeElement {
+  display: block;
+  margin: 10px 0 20px 0;
+  max-width: 500px;
+  padding: 10px 14px;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px, rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border-radius: 4px;
+  background: white;
+}
+
+.StripeElement--focus {
+  box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px, rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+}
+
+.StripeElement.PaymentRequestButton {
+  padding: 0;
+}
+
+.lmsEnrollPayLabel {
+  display:flex;
+  flex-direction:column;
+  font-family:'Lato';
+  color:#888888;
+  font-weight:bold;
+  margin-bottom:3px;
+  padding:10px;
+}

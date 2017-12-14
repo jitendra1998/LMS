@@ -1,0 +1,119 @@
+/* Single Styles */
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+.lmsSingleLessonImageContainer {
+  width:100%;
+  height:250px;
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  border-bottom:1px solid #DDDDDD;
+}
+
+.lmsSingleLessonImage {
+  width:auto;
+  height:auto;
+  max-height:250px;
+}
+
+.lmsSingleCourses {
+  width:100%;
+  margin:0 auto;
+}
+
+.lmsDetailStudentsContainer {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.lmsDetailStudentList {
+  width:50%;
+  padding:15px;
+}
+
+.lmsDetailStudentHeader {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  background:#DDDDDD;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius:2px;
+  font-family:'Lato';
+  color:#555555;
+  font-weight:bold;
+  margin-bottom:3px;
+}
+
+.lmsDetailStudentBlock {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  background:#EEEEEE;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:2.5px;
+  padding-bottom:2.5px;
+  border-radius:2px;
+  margin-bottom:3px;
+}
+
+.lmsDetailStudentBlockLeft {
+  display:flex;
+  width:50%;
+  align-items:center;
+}
+
+.lmsDetailStudentName {
+  font-family:'Lato';
+  margin-left:10px;
+  margin-right:10px;
+  color:#444444;
+}
+
+.lmsDetailStudentBlockRight {
+  display:flex;
+  width:50%;
+  align-items:center;
+}
+
+.lmsDetailStudentAvatar {
+  width:35px;
+  height:35px;
+  border-radius:50%;
+}
+
+.lmsDetailStudentProgressValue {
+  font-family:'Lato';
+  font-size:0.9em;
+  color:#666666;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.lmsSingleBlockCircle {
+  height:17px;
+  width:17px;
+  border:3px solid #999999;
+  border-radius:50%;
+  margin-right:10px;
+}
+
+.lmsSingleBlockCircleComplete {
+  height:17px;
+  width:17px;
+  border:3px solid #02BB75;
+  background:#34c890;
+  border-radius:50%;
+  margin-right:10px;
+}

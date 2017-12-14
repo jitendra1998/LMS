@@ -1,0 +1,149 @@
+/* Lessons Styles */
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+.lmsLessonMain {
+  width:100%;
+  display:flex;
+  flex-direction:row;
+}
+
+.lmsLessonColumnOne {
+  width:20%;
+  height:100vh;
+  overflow:auto;
+  border-right:1px solid #CCCCCC;
+  background:#F9F9F9;
+}
+
+.lmsLessonColumnOneHeader {
+  height:50px;
+  background:#333333;
+  display:flex;
+  align-items:center;
+}
+
+.lmsLessonColumnOneTitle {
+  font-family:'Oswald';
+  color:#222222;
+  font-size:2em;
+  font-variant:small-caps;
+  line-height:35px;
+  padding:15px;
+}
+
+.lmsLessonBlock {
+  margin-top:15px;
+}
+
+.lmsLessonBlockHeader{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  background:#DDDDDD;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  font-family:'Lato';
+  color:#555555;
+  font-weight:bold;
+}
+
+.lmsLessonBlockItem {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  background:#EEEEEE;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  border-bottom:1px solid #DDDDDD;
+  cursor:pointer;
+}
+
+.lmsLessonBlockTitle {
+  font-family:'Lato';
+  color:#444444;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.lmsLessonBlockCircle {
+  height:25px;
+  width:25px;
+  border:3px solid #999999;
+  border-radius:50%;
+}
+
+.lmsLessonBlockCircleActive {
+  height:25px;
+  width:25px;
+  border-radius:50%;
+  border:3px solid #02BB75;
+  background:#34c890;
+}
+
+.lmsLessonColumnTwo {
+  width:80%;
+  height:100vh;
+  overflow:auto;
+}
+
+.lmsLessonColumnTwoHeader {
+  width:100%;
+  height:50px;
+  background:#333333;
+  display:flex;
+  flex-direction:row;
+}
+
+.lmsLessonPreviousButton {
+  width:50%;
+}
+
+.lmsLessonNextButton {
+  width:50%;
+}
+
+.lmsLessonColumnTwoContent {
+  padding:15px 30px;
+}
+
+.lmsLessonColumnTwoHeading {
+  font-family:'Oswald';
+  font-weight:bold;
+  font-size:2em;
+  margin-bottom:20px;
+}
+
+.lmsLessonMainEnroll {
+  width:100%;
+  height:300px;
+  background:#EEEEEE;
+  border-radius:5px;
+  border:1px solid #DDDDDD;
+  font-family:'Oswald';
+  font-weight:bold;
+  font-size:2em;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  color:#999999;
+}
+
+.lmsLessonMainContent {
+  width:100%;
+  font-family:'Lato';
+  font-size:1.2em;
+  font-weight:300;
+  color:#333333;
+  line-height:35px;
+}

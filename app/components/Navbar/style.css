@@ -1,0 +1,113 @@
+/* NavBar Styles */
+
+.headerComponent {
+  position:absolute;
+  width:100%;
+  background:#222222;
+  height:50px;
+}
+
+.navBar {
+  display:flex;
+  flex-direction:row;
+  height:50px;
+  width:100%;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.navbarContainer {
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+}
+
+.siteName {
+  font-size:1.5em;
+  line-height:24px;
+  margin-left:10px;
+  font-family:'Lato';
+  text-align:center;
+  color:#FFFFFF;
+}
+
+.nav {
+  width:70%;
+  display:flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  align-items:center;
+  margin-right:15px;
+}
+
+.navButton {
+  font-family:'Montserrat';
+  color:#FFFFFF;
+  text-decoration:none;
+  margin-right:15px;
+  font-weight:bold;
+  font-variant:small-caps;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: space-between;
+  cursor:pointer;
+}
+
+.navButton:hover {
+  color:#6fc13e;
+}
+
+.menuIcon {
+  display:none;
+}
+
+.userAvatarNavbar {
+  height:30px;
+  width:30px;
+  border-radius:50%;
+  margin-right:5px;
+}
+
+.userMenuNavBar {
+  display:flex;
+  flex-direction:column;
+  align-self:flex-end;
+}
+
+.userMenuButton {
+  display:flex;
+  flex-direction:row;
+  padding:5px;
+  width:200px;
+  font-family:'Montserrat';
+  font-size:0.9em;
+  font-weight:bold;
+  font-variant:small-caps;
+  border-radius:0px 0px 5px 5px;
+  background:#333333;
+  color:#FFFFFF;
+  border-bottom:1px solid #555555;
+  border-right:1px solid #555555;
+  border-left:1px solid #555555;
+  cursor:pointer;
+}
+
+.userMenuButton:hover {
+  display:flex;
+  flex-direction:row;
+  padding:5px;
+  width:200px;
+  font-family:'Montserrat';
+  font-size:0.9em;
+  font-weight:bold;
+  font-variant:small-caps;
+  border-radius:0px 0px 5px 5px;
+  background:#444444;
+  color:#FFFFFF;
+  border-bottom:1px solid #555555;
+  border-right:1px solid #555555;
+  border-left:1px solid #555555;
+}

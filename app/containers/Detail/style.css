@@ -1,0 +1,238 @@
+/* Detail Styles */
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+.lmsDetailHeader {
+  width:100%;
+  min-height:500px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  background-size:cover !important;
+  background-position:center center !important;
+  background-repeat:no-repeat !important;
+}
+
+.lmsDetailHeaderHeading {
+  font-family:'Oswald';
+  color:#FFFFFF;
+  font-size:4em;
+  font-variant:small-caps;
+}
+
+.lmsDetailHeaderText {
+  font-family:'Lato';
+  color:#FFFFFF;
+  width:60%;
+  max-width:600px;
+  text-align:center;
+  font-size:2em;
+  margin-top:10px;
+}
+
+.lmsDetailContent {
+  padding:30px;
+  width:100%;
+  max-width:800px;
+  margin:0 auto;
+  font-family:'Lato';
+  font-size:1.2em;
+  font-weight:300;
+  color:#333333;
+  line-height:35px;
+}
+
+.lmsDetailAuthor {
+  width:100%;
+  min-height:300px;
+  background:#EEEEEE;
+}
+
+.lmsDetailAuthorContainer {
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  max-width:800px;
+  margin:0 auto;
+  padding:30px;
+  justify-content: space-between;
+}
+
+.lmsDetailAuthorAvatar {
+  width:20%;
+}
+
+.lmsDetailAuthorAvatarImg {
+  width:100%;
+  height:auto;
+  border-radius:50%;
+  border:1px solid #CCCCCC;
+}
+
+.lmsDetailAuthorInfo {
+  width:75%;
+}
+
+.lmsDetailAuthorName {
+  font-family:'Oswald';
+  font-weight:bold;
+  font-size:2em;
+}
+
+.lmsDetailAuthorContent {
+  margin:0 auto;
+  font-family:'Lato';
+  font-size:1.1em;
+  font-weight:300;
+  color:#333333;
+  line-height:30px;
+}
+
+.lmsDetailCourses {
+  width:100%;
+  max-width:800px;
+  margin:0 auto;
+  padding:30px;
+}
+
+.lmsDetailCoursesHeader {
+  font-family:'Oswald';
+  font-weight:bold;
+  font-size:2em;
+  margin-bottom:20px;
+}
+
+.lmsDetailCoursesBlockList {
+  display:flex;
+  flex-direction:column;
+}
+
+.lmsDetailCoursesBlock {
+  display:flex;
+  flex-direction:column;
+  margin-top:10px;
+}
+
+.lmsDetailCoursesBlockItem {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  background:#EEEEEE;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius:2px;
+  margin-bottom:3px;
+}
+
+.lmsDetailCoursesBlockItem:hover {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  background:rgba(0, 171, 108, 0.2);
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius:2px;
+  margin-bottom:3px;
+  cursor:pointer;
+  color:rgb(0, 171, 108);
+}
+
+.lmsDetailCoursesBlockHeader {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  background:#DDDDDD;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius:2px;
+  font-family:'Lato';
+  color:#555555;
+  font-weight:bold;
+  margin-bottom:3px;
+}
+
+.lmsDetailCoursesBlockInfo {
+  display:flex;
+  flex-direction:row;
+}
+
+.lmsDetailCoursesBlockIcon{
+  font-size:1.1em;
+}
+
+.lmsDetailCoursesBlockTitle {
+  font-family:'Lato';
+  margin-left:10px;
+  margin-right:10px;
+  color:#444444;
+}
+
+.lmsDetailFaq {
+  background:#EEEEEE;
+  padding:30px;
+}
+
+.lmsDetailFaqContainer {
+  width:100%;
+  max-width:800px;
+  margin:0 auto;
+}
+
+.lmsDetailFaqHeader {
+  font-family:'Oswald';
+  font-weight:bold;
+  font-size:2em;
+  margin-bottom:20px;
+}
+
+.lmsDetailFaqBlockHeader {
+  font-family:'Lato';
+  font-weight:bold;
+  font-size:1.5em;
+  color:#555555;
+  margin-bottom:10px;
+}
+
+.lmsDetailFaqBlockContent {
+  font-family:'Lato';
+  font-size:1.2em;
+  font-weight:300;
+  color:#222222;
+  line-height:30px;
+}
+
+.lmsDetailFaqBlock {
+  margin-top:30px;
+}
+
+.lmsDetailCallToAction {
+  width:100%;
+  height:150px;
+  display:flex;
+  flex-direction:column;
+  font-family:'Lato';
+  font-weight:bold;
+  font-size:1.5em;
+  color:#222222;
+  background:#FFFFFF;
+  justify-content: center;
+  align-items:center;
+}
+
+.lmsDetailHeaderButtons {
+  margin-top:15px;
+}

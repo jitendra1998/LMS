@@ -1,0 +1,134 @@
+/* Home Styles */
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+.lmsHomeHeader {
+  width:100%;
+  height:500px;
+  background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('http://houseofhackers.me/media/assets/banner.png');
+  background-size:cover;
+  background-position:center center;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+}
+
+.lmsHomeHeaderHeading {
+  font-family:'Lobster';
+  color:#FFFFFF;
+  font-size:4em;
+}
+
+.lmsHomeHeaderText {
+  font-family:'Oswald';
+  color:#FFFFFF;
+  width:60%;
+  max-width:600px;
+  text-align:center;
+  font-size:1.5em;
+  margin-top:10px;
+}
+
+.lmsHomeMain {
+  background:#EEEEEE;
+}
+
+.lmsHomeMainContainer {
+  width:100%;
+  max-width:1200px;
+  margin: 0 auto;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.lmsHomeMainHeading {
+  font-family:'Oswald';
+  color:#222222;
+  font-size:2.5em;
+  font-variant:small-caps;
+  text-align:center;
+  padding:15px;
+}
+
+.lmsHomeMainList {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.lmsHomeMainBlock {
+  width:30%;
+  padding:1%;
+  margin-bottom:15px;
+  text-decoration:none;
+}
+
+.lmsHomeCallToAction {
+  background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('http://houseofhackers.me/media/assets/fixedImage.png');
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+  height:175px;
+  color:#FFFFFF;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  font-family:'Oswald';
+  font-size:3em;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.lmsHomeBuzz {
+  width:100%;
+  max-width:1200px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  margin:0 auto;
+}
+
+.lmsHomeBuzzBlock {
+  width:46%;
+  padding:2%;
+  height:100px;
+}
+
+.lmsHomeBuzzHeader {
+  font-family:'Oswald';
+  font-size:2em;
+  display:flex;
+  flex-direction:row;
+  font-variant:small-caps;
+  font-weight:bold;
+  color:#555555;
+}
+
+.lmsHomeBuzzContent {
+  display:flex;
+  flex-direction:row;
+  color:#888888;
+  line-height:30px;
+  font-family:'Lato';
+}
+
+.lmsJoinCallToAction {
+  background:#FFFFFF;
+  height:100px;
+  color:#222222;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  font-family:'Oswald';
+  font-size:2em;
+  margin-top:30px;
+}

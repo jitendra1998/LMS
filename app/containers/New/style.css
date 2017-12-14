@@ -1,0 +1,440 @@
+/* New Styles */
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+.lmsNewLessonAddButton {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  background:#EEEEEE;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  border-bottom:1px solid #DDDDDD;
+  cursor:pointer;
+}
+
+
+.lmsNewLessonAddButton:hover {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  background:#E7E7E7;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  border-bottom:1px solid #DDDDDD;
+  cursor:pointer;
+}
+
+.lmsNewLessonAddButton:active {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  background:#DFDFDF;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  border-bottom:1px solid #DDDDDD;
+  cursor:pointer;
+}
+
+
+.lmsNewLessonAddButtonTitle {
+  font-family:'Lato';
+  color:#444444;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.lmsNewLessonBlockTitle {
+  font-family:'Lato';
+  color:#444444;
+}
+
+.lmsNewColumnTwoHeader {
+  width:100%;
+  height:50px;
+  background:#333333;
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-end;
+  align-items:center;
+}
+
+.lmsNewCourseNameInput {
+  font-family:'Oswald';
+  color:#222222;
+  font-size:2em;
+  font-variant:small-caps;
+  line-height:35px;
+  resize:none;
+  padding-top:15px;
+  padding-left:15px;
+  padding-right:15px;
+  width:calc(100% - 31px);
+  border:none;
+  background:transparent;
+  overflow:hidden;
+}
+
+.lmsNewCourseNameInput:focus {
+  font-family:'Oswald';
+  color:#222222;
+  font-size:2em;
+  font-variant:small-caps;
+  line-height:35px;
+  resize:none;
+  padding-top:15px;
+  padding-left:15px;
+  padding-right:15px;
+  width:calc(100% - 31px);
+  border:none;
+  background:transparent;
+  overflow:hidden;
+  outline:none;
+}
+
+.lmsNewLessonBlockHeaderInput {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  background:#DDDDDD;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-family:'Lato';
+  color:#555555;
+  font-weight:bold;
+  border:none;
+  outline:none;
+  width:calc(100% - 20px);
+  cursor:pointer;
+}
+
+.lmsNewLessonBlockHeader {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  background:#DDDDDD;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.lmsNewLessonBlockHeader:focus {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  background:#DDDDDD;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  font-family:'Lato';
+  color:#555555;
+  font-weight:bold;
+  border:none;
+  outline:none;
+  width:calc(100% - 20px);
+}
+
+.lmsNewBlockItemContainer {
+  display:flex;
+  flex-direction:column;
+  background:#EEEEEE;
+  cursor:pointer;
+  border-bottom:1px solid #DDDDDD;
+}
+
+
+.lmsNewBlockItem {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  font-family:'Lato';
+  color:#444444;
+  border:none;
+  outline:none;
+  cursor:pointer;
+}
+
+.lmsNewBlockItemInput {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  background:#EEEEEE;
+  font-family:'Lato';
+  font-size:0.90em;
+  color:#444444;
+  width:100%;
+  border:none;
+  cursor:pointer;
+}
+
+.lmsNewBlockItemInput:focus {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  background:#EEEEEE;
+  font-family:'Lato';
+  color:#444444;
+  width:100%;
+  border:none;
+  outline:none;
+}
+
+.lmsNewBlockItem:focus {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  background:#EEEEEE;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
+  font-family:'Lato';
+  color:#444444;
+  border:none;
+  outline:none;
+  width:calc(100% - 20px);
+  border-bottom:1px solid #DDDDDD;
+}
+
+.lmsLessonCourseSummary {
+  display:flex;
+  width:100%;
+  font-family:'Lato';
+  font-size:1em;
+  font-weight:300;
+  color:#333333;
+}
+
+.home-toolbar {
+  background:transparent;
+  border:none;
+  border-bottom:1px solid #DDDDDD;
+}
+
+.home-wrapper {
+  width:100%;
+  margin-top:15px;
+}
+
+.rdw-editor-main {
+  min-height:500px;
+  font-family:'Lato';
+  font-weight:300;
+  font-size:1.1em;
+  color:#333333;
+  line-height:30px;
+  letter-spacing: 1px;
+}
+
+.lmsLessonMainInline {
+  display:flex;
+  flex-direction:row;
+}
+
+.lmsLessonMainImageRow {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-top:15px;
+  margin-bottom:15px;
+}
+
+.lmsLessonMainImageBlock {
+  width:48%;
+  min-height:200px;
+  border:8px dashed #DDDDDD;
+  font-family:'Lato';
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  font-size:1.5em;
+  color:#BBBBBB;
+}
+
+.lmsLessonMainAvatarBlock {
+  width:100%;
+  min-height:200px;
+  border:5px dashed #DDDDDD;
+  font-family:'Lato';
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  font-size:1.5em;
+  color:#BBBBBB;
+}
+
+.lmsNewVideoBlockInput {
+  border:none;
+  width:100%;
+  height:100%;
+  text-align:center;
+  font-family:'Lato';
+  font-size:1em;
+  color:#777777;
+  outline:none;
+}
+
+.lmsNewVideoBlockInput::placeholder {
+  font-family:'Lato';
+  font-size:1em;
+  color:#BBBBBB;
+}
+
+.lmsNewCourseImagePreview {
+  max-height:200px;
+  max-width:100%;
+}
+
+.lmsNewInstructorName {
+  font-family:'Oswald';
+  font-weight:bold;
+  font-size:2em;
+  background:transparent;
+  border:none;
+  outline:none;
+  color:#888888;
+}
+
+.lmsNewAuthorContent {
+  margin:0 auto;
+  font-family:'Lato';
+  font-size:1.1em;
+  font-weight:300;
+  color:#333333;
+  line-height:30px;
+  width:100%;
+  background:transparent;
+  border:none;
+  resize:none;
+  outline:none;
+  min-height:200px;
+}
+
+.lmsNewLectureHeading {
+  display:flex;
+  flex-direction:row;
+  align-items:flex-end;
+  justify-content: space-between;
+}
+
+.lmsNewVideoBlock {
+  width:100%;
+  min-height:100px;
+  border:8px dashed #DDDDDD;
+  font-family:'Lato';
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  font-size:1.5em;
+  color:#BBBBBB;
+}
+
+.lmsNewFileList {
+  display:flex;
+  flex-direction:column;
+}
+
+.lmsNewFileAdd {
+  width:100%;
+  min-height:50px;
+  border:5px dashed #DDDDDD;
+  font-family:'Lato';
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content: center;
+  font-size:1.5em;
+  color:#BBBBBB;
+  margin-top:15px;
+}
+
+.lmsNewFileBlock {
+  width:100%;
+  min-height:50px;
+  background:#FFFFFF;
+  box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
+  font-family:'Lato';
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: space-between;
+  font-size:1.5em;
+  color:#BBBBBB;
+  margin-top:15px;
+}
+
+.lmsNewQuestionButton {
+  display:flex;
+  flex-direction:row;
+}
+
+.lmsNewLectureQuestionList {
+  display:flex;
+  flex-direction:column;
+}
+
+.lmsNewLectureQuestionBlock {
+  display:flex;
+  flex-direction:column;
+}
+
+.lmsNewLectureQuestionContent {
+  display:flex;
+  flex-direction:row;
+  align-items:flex-end;
+  margin-bottom:10px;
+}
+
+.lmsNewLectureQuestionNum {
+  margin-right:15px;
+  width:40px;
+  height:40px;
+  background: #EEEEEE;
+  border-radius: 5px;
+  color:#555555;
+  font-weight:bold;
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: center;
+  font-family:'Lato';
+}
+
+.lmsNewLessonCloseIcon {
+  opacity:0;
+}
+
+.lmsNewLessonCloseIcon:hover {
+  opacity:1;
+  animation: fadein 500ms;
+}
+
+.lmsNewDeleteBlock {
+  display:flex;
+  flex-direction:row;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

@@ -1,0 +1,97 @@
+/* Skills Styles */
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+.lmsAboutMain {
+  margin-top:50px;
+}
+
+.lmsAboutblocksContainer {
+  display:flex;
+  flex-direction:column;
+}
+
+.lmsAboutblockRow {
+  display:flex;
+  flex-direction:row;
+  min-height:600px;
+}
+
+.lmsAboutblockTextLeft {
+  width:50%;
+  height:inherit;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-end;
+  background:#FFFFFF;
+}
+
+.lmsAboutblockTextRight {
+  width:50%;
+  height:inherit;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:flex-start;
+  background:#FFFFFF;
+}
+
+.lmsAboutblockImageMobile {
+  display:flex;
+  width:50%;
+  height:inherit;
+  background:url('https://technopathic.me/storage/iphoneTable.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.lmsAboutblockImageWeb {
+  display:flex;
+  width:50%;
+  height:inherit;
+  background:url('https://technopathic.me/storage/web-mockup.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.lmsAboutblockImageDesign {
+  display:flex;
+  width:50%;
+  height:inherit;
+  background:url('https://technopathic.me/storage/designmock.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.lmsAboutblockConstraint {
+  max-width:50%;
+  padding:100px;
+}
+
+.lmsAboutmainTitle {
+  font-family:'Oswald';
+  font-size:3em;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  font-variant:small-caps;
+  font-weight:bold;
+  color:#555555;
+  padding:15px;
+  text-align:center;
+}
+
+.lmsAboutmainSubtitle {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  padding:15px;
+  color:#888888;
+  line-height:30px;
+  font-family:'Lato';
+}
